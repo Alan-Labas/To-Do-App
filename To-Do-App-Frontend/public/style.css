@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f2f5; /* Nežno modro-sivo ozadje za modern videz */
+}
+
+/* Centriranje glavne vsebine na zaslonu */
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Poravnaj na vrh (da ni popolnoma na sredini zaslona) */
+    min-height: 100vh;
+    padding: 50px 15px; /* Odmik zgoraj in od strani */
+}
+
+/* Skupni slogi za vse glavne 'karte' aplikacije (Todo list, Prijava/Registracija) */
+.app-card-container {
+    max-width: 600px; /* Maksimalna širina, dobro za sezname */
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Nežna senca */
+    border-radius: 1rem; /* Bolj zaobljeni robovi */
+    border: none;
+}
+
+/* Omejitev širine za avtentikacijsko formo */
+.auth-card-container {
+    max-width: 450px; /* Ožje za forme za prijavo/registracijo */
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    border: none;
+}
