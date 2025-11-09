@@ -26,10 +26,10 @@ To-Do-App/
 ```
 
 ### Tehnologije
-- **Frontend:** React (JavaScript, JSX)
-- **Backend:** Java Spring Boot (v4.x)
-- **Baza:** H2 ali MySQL (odvisno od konfiguracije)
-- **Orodja:** Maven, npm
+- **Frontend:** React - react@19.2.0 (JavaScript, JSX)
+- **Backend:** Java Spring Boot (v3.5.6)
+- **Baza:** MySQL - mysql  Ver 9.3.0 for macos15.4 on arm64 (Homebrew)
+- **Orodja:** Maven, npm - v10.9.2, node - v22.14.0
 - **API komunikacija:** REST API (JSON)
 
 ###  Standardi kodiranja
